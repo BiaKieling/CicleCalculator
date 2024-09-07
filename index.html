@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-br">
+<!-- Define a linguagem do documento como português do Brasil -->
+<head>
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define a largura da viewport para dispositivos móveis e a escala inicial -->
+    <title>Calculadora do Ciclo de Sono</title>
+    <!-- Define o título da página exibido na aba do navegador -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Vincula o arquivo de estilos CSS -->
+</head>
+<body>
+    <div class="container">
+        <!-- Contêiner para centralizar o conteúdo -->
+        <h1>Calculadora do Ciclo de Sono</h1>
+        <!-- Título principal da página -->
+        <p>Insira o horário em que você pretende dormir:</p>
+        <!-- Texto instrucional para o usuário -->
+        <input type="time" id="sleep-time">
+        <!-- Campo de entrada para o horário de dormir -->
+        
+        <p>Tempo médio que você demora para adormecer (em minutos):</p>
+        <!-- Texto instrucional para o usuário -->
+        <input type="number" id="fall-asleep-time" min="0" placeholder="Ex: 15">
+        <!-- Campo de entrada para o tempo de adormecimento, com valor padrão 0 -->
+
+        <button onclick="calculateWakeTimes()">Calcular Melhores Horários para Acordar</button>
+        <!-- Botão para acionar o cálculo dos horários de acordar -->
+
+        <h2>Melhores horários para acordar:</h2>
+        <!-- Subtítulo para a lista de horários -->
+        <ul id="results">
+            <!-- Lista onde os resultados serão exibidos -->
+            <!-- Resultados serão exibidos aqui -->
+        </ul>
+
+        <section class="info">
+            <!-- Seção com informações adicionais sobre ciclos de sono -->
+            <h2>Como Funcionam os Ciclos do Sono?</h2>
+            <p>O sono é dividido em ciclos de aproximadamente 90 minutos. Cada ciclo é composto por várias fases, </p>
+            <p>que vão desde o sono leve até o sono REM (Rapid Eye Movement), que é a fase mais profunda e onde ocorrem os sonhos.</p>
+            <p>Ao longo da noite, uma pessoa pode passar por 4 a 6 ciclos de sono. É importante tentar acordar ao final de um ciclo, pois acordar no meio de uma fase profunda pode levar à sensação de cansaço e sonolência.</p>
+            <p>Com essa calculadora, você pode inserir a hora em que vai dormir, e ela calculará os melhores horários para acordar ao final de um ciclo de sono. Isso pode ajudar a melhorar a qualidade do seu despertar, fazendo você se sentir mais descansado e energizado.</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+    <!-- Vincula o arquivo JavaScript para a lógica do cálculo -->
+</body>
+</html>

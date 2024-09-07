@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Define a fonte padrão da página */
+    background-image: url('assets/benjamin-voros-X63FTIZFbZo-unsplash.jpg');
+    /* Define a imagem de fundo da página */
+    background-size: cover;
+    /* Faz a imagem cobrir todo o fundo */
+    background-position: center;
+    /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat;
+    /* Evita que a imagem se repita */
+    color: #f0f0f0;
+    /* Define a cor do texto */
+    display: flex;
+    /* Usa o Flexbox para alinhar o conteúdo */
+    justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    /* Centraliza o conteúdo verticalmente */
+    height: 100vh;
+    /* Define a altura da página como 100% da altura da viewport */
+    margin: 0;
+    /* Remove as margens padrão */
+}
+
+.container {
+    text-align: center;
+    /* Centraliza o texto dentro do contêiner */
+    background: #2c2c2c;
+    /* Define a cor de fundo do contêiner */
+    padding: 20px;
+    /* Adiciona um espaço interno de 20px */
+    border-radius: 8px;
+    /* Adiciona bordas arredondadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* Adiciona uma sombra ao contêiner */
+    max-width: 800px; /* Define uma largura máxima para o contêiner */
+    margin: 20px auto; /* Adiciona uma margem automática nas laterais e uma margem superior e inferior de 20px */
+    /* Ajusta o espaço ao redor do contêiner */
+}
+
+h1 {
+    color: #ff79c6;
+    /* Define a cor do título principal */
+}
+
+input[type="time"] {
+    font-size: 1.2rem;
+    /* Define o tamanho da fonte do campo de entrada */
+    padding: 5px;
+    /* Adiciona um espaço interno de 5px */
+    margin: 10px 0;
+    /* Adiciona margens superior e inferior de 10px */
+    border-radius: 5px;
+    /* Adiciona bordas arredondadas */
+    border: none;
+    /* Remove a borda padrão */
+    text-align: center;
+}
+
+input[type="number"] {
+    font-size: 1.2rem;
+    /* Define o tamanho da fonte do campo de entrada numérico */
+    padding: 5px;
+    /* Adiciona um espaço interno de 5px */
+    margin: 10px 0;
+    /* Adiciona margens superior e inferior de 10px */
+    border-radius: 5px;
+    /* Adiciona bordas arredondadas */
+    border: none;
+    /* Remove a borda padrão */
+    text-align: center;
+    width: 150px;
+    /*width: 150px; /* Ajusta a largura do campo numérico */
+    /* Define uma largura fixa para o campo de entrada numérico */
+    display: block;
+    /* Faz com que os campos de entrada ocupem a largura disponível */
+    margin-left: auto;
+    /* Adiciona margem automática à esquerda */
+    margin-right: auto;
+    /* Adiciona margem automática à direita */
+}
+
+
+button {
+    background-color: #6150fa;
+    /* Define a cor de fundo do botão */
+    color: #1c1c1c;
+    /* Define a cor do texto do botão */
+    font-size: 1rem;
+    /* Define o tamanho da fonte do botão */
+    padding: 10px 20px;
+    /* Adiciona um espaço interno de 10px vertical e 20px horizontal */
+    border: none;
+    /* Remove a borda padrão do botão */
+    border-radius: 5px;
+    /* Adiciona bordas arredondadas */
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+    display: block;
+    /* Faz com que o botão ocupe a largura disponível */
+    margin: 10px auto;
+    /* Adiciona margem automática à esquerda e à direita */
+}
+
+button:hover {
+    background-color: #3a26eb;
+    /* Altera a cor de fundo do botão ao passar o mouse */
+}
+
+h2 {
+    margin-top: 20px;
+    /* Adiciona uma margem superior de 20px */
+}
+
+ul {
+    list-style-type: none;
+    /* Remove os marcadores da lista */
+    padding: 0;
+    /* Remove o preenchimento padrão da lista */
+}
+
+ul li {
+    background-color: #444;
+    /* Define a cor de fundo dos itens da lista */
+    margin: 5px 0;
+    /* Adiciona margens superior e inferior de 5px */
+    padding: 10px;
+    /* Adiciona um espaço interno de 10px */
+    border-radius: 5px;
+    /* Adiciona bordas arredondadas */
+    color: #50fa7b;
+    /* Define a cor do texto dos itens da lista */
+}
+
+.info {
+    margin-top: 20px;
+    /* Adiciona uma margem superior de 20px */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Define um fundo levemente escurecido */
+    padding: 15px;
+    /* Adiciona um espaço interno de 15px */
+    border-radius: 8px;
+    /* Adiciona bordas arredondadas */
+}
+
+.info h2 {
+    color: #ff79c6;
+    /* Define a cor do título na seção de informações */
+}
+
+.info p {
+    margin: 10px 0;
+    /* Adiciona margens superior e inferior de 10px */
+    line-height: 1.6;
+    /* Define a altura da linha do texto para melhorar a legibilidade */
+}
